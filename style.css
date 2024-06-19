@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto ;
+    flex-direction: column;
+    background-color: #f2f2f2;
+
+}
+.header{
+    background-color:  black;
+    color: white;
+    text-align: center;
+}
+
+
+
+.section{
+    margin: 50px 0;
+}
+
+.box{
+    height: 250px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.b{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    
+}
+
+/*  */
+
+.section_b{
+    display: inline-flex;
+    width: 100%;
+    height: 400px;
+    margin: 0 75px;
+    /* border: 1px solid black; */
+}
+
+.rigth{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left{
+    width: 35%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.dot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.destination{
+    display: inline-flex;
+    flex-direction: column;
+    border-left: 1px dotted black;
+    
+    
+}
+h6{
+    display: inline-flex;
+    background-color: black;
+    color: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey{
+    color: grey;
+}
+.qwer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.small{
+    font-size: small;
+}
+
+.c1_m{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grow{
+    display: flex;
+    flex-grow: 1;
+}
+/* section d */
+
+.d{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* price */
+
+.pack{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    height: 150px;
+    border-radius: 5px;
+    width: 25%;
+    font-weight: 100;
+
+}
+
+li{
+    font-weight: 100;
+}
+
+.pack:hover{
+
+    border: 1px solid green;
+}
