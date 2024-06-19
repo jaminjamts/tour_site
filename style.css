@@ -88,7 +88,7 @@ h6{
     display: inline-flex;
     background-color: black;
     color: green;
-    height: 30px;
+    height: 25px;
     width: 30px;
     border-radius: 50%;
     justify-content: center;
@@ -126,6 +126,19 @@ h6{
     flex-direction: column;
     justify-content: center;
 }
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.flarge{
+    font-size: 50px;
+}
+.fmedium{
+    font-size: 25px;
+    justify-content: flex-start;
+}
 
 /* price */
 
@@ -148,4 +161,45 @@ li{
 .pack:hover{
 
     border: 1px solid green;
+}
+
+.last{
+    background-color: #333;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+button{
+    background-color: green;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    color: #fff;
+    align-items: center;
+
+}
+a img{
+    height: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }
